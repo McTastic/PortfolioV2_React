@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 const pages = ['About', 'Projects', 'Contact'];
 
-const Navbar = () => {
+const Navbar = ({currentPage, handlePageChange}) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -67,7 +67,7 @@ const Navbar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center" onClick={()=>handlePageChange(page)}>{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -78,13 +78,13 @@ const Navbar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            LOGO
+            SeanM
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick= {()=>handlePageChange(page)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
