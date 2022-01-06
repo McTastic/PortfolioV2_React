@@ -27,7 +27,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
  
     <AppBar position="static"
     sx={{
-        backgroundColor: `rgb(25, 118, 210)`,
+        backgroundColor: `rgb(25, 90, 150)`,
         backdropFilter: `blur(5px)`,
         height: "4em",
         display: "flex",
