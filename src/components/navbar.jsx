@@ -24,7 +24,17 @@ const Navbar = ({currentPage, handlePageChange}) => {
   };
 
   return (
-    <AppBar position="static">
+ 
+    <AppBar position="static"
+    sx={{
+        backgroundColor: `rgb(25, 118, 210)`,
+        backdropFilter: `blur(5px)`,
+        height: "4em",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "start",
+        }}
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -94,6 +104,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
         </Toolbar>
       </Container>
     </AppBar>
+
   );
 };
 export default Navbar;

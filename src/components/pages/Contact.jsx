@@ -1,6 +1,8 @@
+import ContactForm from "../form"
+
 const Contact = () => {
     return (
-        <div className="contact">Conact goes here!</div>
+        <ContactForm/>
     )
 }
 
