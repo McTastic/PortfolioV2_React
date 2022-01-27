@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 export default function NavRoutes() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -17,6 +18,9 @@ export default function NavRoutes() {
       }
       if (currentPage === 'Contact') {
         return <Contact />;
+      }
+      if (currentPage === 'Resume') {
+        return <Resume />;
       }
     };
   

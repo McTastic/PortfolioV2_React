@@ -8,12 +8,17 @@ header {
 }
 .about {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .aboutText {
   margin: 2em 0 0 2em;
+  width: 50%;
+  font-size: 1.25em;
+  
 }
 .aboutPic {
   margin: 2em 2em 0 2em;
-  height: 10em;
-  width: 10em;
+  height: 15em;
+  width: 15em;
 }

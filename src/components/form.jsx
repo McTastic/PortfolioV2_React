@@ -12,7 +12,7 @@ const ContactForm = () => {
         <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
           <CardContent>
             <Typography gutterBottom variant="h5">
-              Contact Me
+              Contact Me!
           </Typography> 
             <Typography variant="body2" color="textSecondary" component="p" gutterBottom>
               Fill out the form and I will get back to you as soon as possible!
