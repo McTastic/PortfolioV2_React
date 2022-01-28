@@ -11,7 +11,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 	letter-spacing: 1px;
 }
 
@@ -26,4 +26,16 @@
 	line-height: .75;
 	margin: 10px 0;
 }
-/* styling my button */
+.greeting img{
+    margin-top: 1em;
+    box-shadow: 15px 15px 10px black;
+}
+@media only screen and (max-width: 600px) {
+    .greeting h1 {
+      font-size: 60px;
+    }
+    .greeting img{
+        height: 10em;
+        width: 75%;
+    }
+  }
