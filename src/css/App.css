@@ -18,3 +18,12 @@ header {
 	text-transform: uppercase;
 	line-height: .75;
 }
+.mobileNameLogo{
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	line-height: .75;
+}

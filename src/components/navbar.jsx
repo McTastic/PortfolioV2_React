@@ -90,7 +90,8 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             </Menu>
           </Box>
           <Typography
-            variant="h6"
+            variant="h4"
+            className="mobileNameLogo"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
