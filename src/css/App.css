@@ -18,12 +18,9 @@ header {
 	line-height: .75;
 }
 .mobileNameLogo{
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
-	background-size: cover;
-	justify-content: center;
-	background-clip: text;
-	color: transparent;
-	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	left: 4em;
 }
 @media only screen and (max-width: 600px) {
 	.MuiToolbar-regular{
