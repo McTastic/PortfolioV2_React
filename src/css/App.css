@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 header {
-  background-color: rgb(25, 118, 210);
+  background-color: rgb(165, 182, 199);
 }
 .nameLogo{
   cursor: pointer;
@@ -16,6 +16,9 @@ header {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	line-height: .75;
+}
+.navOptions{
+	color: rgb(206, 89, 104);
 }
 .mobileNameLogo{
 	font-weight: bold;

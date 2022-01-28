@@ -25,9 +25,9 @@ const Navbar = ({ currentPage, handlePageChange }) => {
 
   return (
     <AppBar
-      position="static"
+      position="fixed"
       sx={{
-        backgroundColor: `rgb(25, 90, 150)`,
+        backgroundColor: `rgba(69,71,86, 0.726)`,
         backdropFilter: `blur(5px)`,
         height: "4em",
         display: "flex",
@@ -104,7 +104,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
               <Button
                 key={page}
                 onClick={() => handlePageChange(page)}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ my: 2, color: "rgb(206, 89, 104)", display: "block", fontSize:"1.5em" }}
               >
                 {page}
               </Button>
