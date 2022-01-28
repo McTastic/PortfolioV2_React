@@ -21,6 +21,7 @@ header {
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	justify-content: center;
+	background-clip: text;
 	color: transparent;
 	text-transform: uppercase;
 }
