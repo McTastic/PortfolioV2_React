@@ -1,4 +1,5 @@
 import Picture from "../../images/self_pic.jpg"
+import "../../css/about.css"
 
 const About = () =>{
     return (
