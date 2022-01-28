@@ -4,7 +4,7 @@ import "../../css/resume.css"
 const Resume = () =>{
     return (
         <div className="resume">
-        <iframe src={ResumePDF} width="55%" height="950em">
+        <iframe src={ResumePDF} width="56%" height="950em">
         </iframe>
         </div>
     ) 
