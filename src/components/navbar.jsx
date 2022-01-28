@@ -35,7 +35,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
         alignItems: "start",
       }}
     >
-      <Container maxWidth="xl"className="headerContainer" sx={{ml:0}}>
+      <Container maxWidth="xl" className="headerContainer" sx={{ ml: 0 }}>
         <Toolbar disableGutters>
           <Typography
             onClick={() => handlePageChange("Home")}
@@ -91,11 +91,15 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             </Menu>
           </Box>
           <Typography
+            onClick={() => handlePageChange("Home")}
             variant="h6"
             className="mobileNameLogo"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", sm:"flex", md: "none" } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", sm: "flex", md: "none" },
+            }}
           >
             SeanM
           </Typography>
@@ -104,7 +108,12 @@ const Navbar = ({ currentPage, handlePageChange }) => {
               <Button
                 key={page}
                 onClick={() => handlePageChange(page)}
-                sx={{ my: 2, color: "rgb(206, 89, 104)", display: "block", fontSize:"1.5em" }}
+                sx={{
+                  my: 2,
+                  color: "rgb(206, 89, 104)",
+                  display: "block",
+                  fontSize: "1.5em",
+                }}
               >
                 {page}
               </Button>
