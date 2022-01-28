@@ -40,7 +40,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
           <Typography
             onClick={() => handlePageChange("Home")}
             className="nameLogo"
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
