@@ -95,7 +95,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             className="mobileNameLogo"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
+            sx={{ flexGrow: 1, display: { xs: "flex", sm:"flex", md: "none" } }}
           >
             SeanM
           </Typography>
