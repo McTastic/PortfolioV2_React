@@ -8,8 +8,7 @@ header {
 }
 .nameLogo{
   cursor: pointer;
-  position: relative;
-  right: 5em;
+  padding-right: 1em;
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	color: transparent;
@@ -26,4 +25,8 @@ header {
 	-webkit-background-clip: text;
 	text-transform: uppercase;
 	line-height: .75;
+}
+.MuiToolbar-regular{
+  position: relative;
+  right: 15em;
 }

@@ -80,7 +80,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography
-                    textAlign="center"
+                    textAlign="left"
                     onClick={() => handlePageChange(page)}
                   >
                     {page}
