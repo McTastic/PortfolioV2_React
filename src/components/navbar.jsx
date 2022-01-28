@@ -90,7 +90,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             </Menu>
           </Box>
           <Typography
-            variant="h5"
+            variant="h6"
             className="mobileNameLogo"
             noWrap
             component="div"
