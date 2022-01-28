@@ -18,8 +18,6 @@ header {
 	line-height: .75;
 }
 .mobileNameLogo{
-	position: relative;
-	right: 5em;
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	justify-content: center;
