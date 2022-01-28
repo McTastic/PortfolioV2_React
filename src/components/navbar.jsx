@@ -35,12 +35,12 @@ const Navbar = ({ currentPage, handlePageChange }) => {
         alignItems: "start",
       }}
     >
-      <Container maxWidth="xl">
+      <Container maxWidth="xl"className="headerContainer" sx={{ml:0}}>
         <Toolbar disableGutters>
           <Typography
             onClick={() => handlePageChange("Home")}
             className="nameLogo"
-            variant="h4"
+            variant="h3"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: "none", md: "flex" } }}

@@ -29,10 +29,6 @@ header {
 	text-transform: uppercase;
 	line-height: .75;
 }
-.MuiToolbar-regular{
-  position: relative;
-  right: 15em;
-}
 @media only screen and (max-width: 600px) {
 	.MuiToolbar-regular{
 		right: unset;
