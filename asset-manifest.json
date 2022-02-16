@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PortfolioV2_React/static/css/main.7ce14e9b.chunk.css",
-    "main.js": "/PortfolioV2_React/static/js/main.aa21e364.chunk.js",
-    "main.js.map": "/PortfolioV2_React/static/js/main.aa21e364.chunk.js.map",
-    "runtime-main.js": "/PortfolioV2_React/static/js/runtime-main.19f40801.js",
-    "runtime-main.js.map": "/PortfolioV2_React/static/js/runtime-main.19f40801.js.map",
-    "static/js/2.8cb8b1af.chunk.js": "/PortfolioV2_React/static/js/2.8cb8b1af.chunk.js",
-    "static/js/2.8cb8b1af.chunk.js.map": "/PortfolioV2_React/static/js/2.8cb8b1af.chunk.js.map",
-    "static/js/3.240f1f1c.chunk.js": "/PortfolioV2_React/static/js/3.240f1f1c.chunk.js",
-    "static/js/3.240f1f1c.chunk.js.map": "/PortfolioV2_React/static/js/3.240f1f1c.chunk.js.map",
+    "main.js": "/PortfolioV2_React/static/js/main.26868a86.chunk.js",
+    "main.js.map": "/PortfolioV2_React/static/js/main.26868a86.chunk.js.map",
+    "runtime-main.js": "/PortfolioV2_React/static/js/runtime-main.ffe4950d.js",
+    "runtime-main.js.map": "/PortfolioV2_React/static/js/runtime-main.ffe4950d.js.map",
+    "static/js/2.edd98eb5.chunk.js": "/PortfolioV2_React/static/js/2.edd98eb5.chunk.js",
+    "static/js/2.edd98eb5.chunk.js.map": "/PortfolioV2_React/static/js/2.edd98eb5.chunk.js.map",
+    "static/js/3.94d068b4.chunk.js": "/PortfolioV2_React/static/js/3.94d068b4.chunk.js",
+    "static/js/3.94d068b4.chunk.js.map": "/PortfolioV2_React/static/js/3.94d068b4.chunk.js.map",
     "index.html": "/PortfolioV2_React/index.html",
     "static/css/main.7ce14e9b.chunk.css.map": "/PortfolioV2_React/static/css/main.7ce14e9b.chunk.css.map",
-    "static/js/2.8cb8b1af.chunk.js.LICENSE.txt": "/PortfolioV2_React/static/js/2.8cb8b1af.chunk.js.LICENSE.txt",
+    "static/js/2.edd98eb5.chunk.js.LICENSE.txt": "/PortfolioV2_React/static/js/2.edd98eb5.chunk.js.LICENSE.txt",
     "static/media/Resume.304dc3a2.pdf": "/PortfolioV2_React/static/media/Resume.304dc3a2.pdf",
     "static/media/budgetScreenshot.33394911.png": "/PortfolioV2_React/static/media/budgetScreenshot.33394911.png",
     "static/media/campfire-pixel.f9b644ec.gif": "/PortfolioV2_React/static/media/campfire-pixel.f9b644ec.gif",
@@ -23,9 +23,9 @@
     "static/media/xmasScreenshot.e0dc20cf.png": "/PortfolioV2_React/static/media/xmasScreenshot.e0dc20cf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.19f40801.js",
-    "static/js/2.8cb8b1af.chunk.js",
+    "static/js/runtime-main.ffe4950d.js",
+    "static/js/2.edd98eb5.chunk.js",
     "static/css/main.7ce14e9b.chunk.css",
-    "static/js/main.aa21e364.chunk.js"
+    "static/js/main.26868a86.chunk.js"
   ]
 }
