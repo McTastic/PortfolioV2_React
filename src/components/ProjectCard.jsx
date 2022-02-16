@@ -10,21 +10,21 @@ export default function ActionAreaCard() {
   return (
     <>
       {projects.map((project) => (
-        <Grid item xs={12} sm={6} md={4} lg={6} key={project.name} display="flex" justifyContent={"center"}>
-          <Card sx={{ maxWidth: 700, marginTop: 15, boxShadow: 10 }}>
+        <Grid item xs={12} sm={6} md={4} lg={6} xl={6} key={project.name} display="flex" justifyContent={"center"}>
+          <Card sx={{ maxWidth: 900, marginTop: 15, boxShadow: 10 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="500"
+                height="550"
                 image= {project.picture}
                 alt="project picture"
                 onClick={(e)=> window.open(project.url)}
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h4" component="h4">
                   {project.name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" color="text.secondary" fontSize="1.5em">
                   {project.description}
                 </Typography>
               </CardContent>

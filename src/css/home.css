@@ -4,6 +4,7 @@
 } */
 
 .greeting {
+	margin-top: 4em;
 	font-family: "Montserrat";
 	text-align: center;
 	color: #FFF;
