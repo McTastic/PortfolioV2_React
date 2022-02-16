@@ -47,16 +47,16 @@ const ContactForm = () => {
 
   return (
     <div className="Contact">
-      <Typography gutterBottom variant="h3" align="center"></Typography>
       <Grid>
-        <Card style={{ maxWidth: 450, padding: "20px 5px", margin: "0 auto" }}>
+        <Card style={{ maxWidth: 650, padding: "20px 5px", margin: "0 auto" }}>
           <CardContent>
-            <Typography gutterBottom variant="h5">
+            <Typography gutterBottom variant="h3">
               Contact Me!
             </Typography>
             <Typography
               variant="body2"
               color="textSecondary"
+              fontSize="1.5em"
               component="p"
               gutterBottom
             >
