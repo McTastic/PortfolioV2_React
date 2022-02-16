@@ -1,8 +1,12 @@
 import "../../css/projects.css"
+import ProjectCard from "../ProjectCard";
+import { Grid } from "@mui/material";
 
 const Projects = () =>{
     return (
-        <div className="projects">Projects go here!</div>
+        <Grid container >
+        <ProjectCard/>
+        </Grid>
     ) 
 }
 
