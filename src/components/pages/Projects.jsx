@@ -4,9 +4,13 @@ import { Grid } from "@mui/material";
 
 const Projects = () =>{
     return (
+        <>
+        <div class="stars"></div>
+        <div class="twinkling"></div>
         <Grid container >
         <ProjectCard/>
         </Grid>
+        </>
     ) 
 }
 

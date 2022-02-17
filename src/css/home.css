@@ -17,14 +17,15 @@
 }
 
 .greeting h1 {
-	background:url(https://66.media.tumblr.com/4562d983bb013868bff9eb54a997ed87/tumblr_oe7fca9J7p1vqfnzao1_400.gif);
-	filter: hue-rotate(-80deg);
+	background: url(https://data.whicdn.com/images/347096029/original.gif);
+	filter: contrast(70%);
 	background-size: cover;
 	background-position: left top;
 	color: transparent;
 	-moz-background-clip: text;
 	-webkit-background-clip: text;
 	text-transform: uppercase;
+	/* text-shadow: -1px -1px 10px rgb(255, 60, 0); */
 	font-size: 120px;
 	line-height: .75;
 	margin: 10px 0;
@@ -32,7 +33,9 @@
 }
 .greeting img{
     margin-top: 1em;
-    box-shadow: 15px 15px 10px black;
+	border-radius: 10px 100px / 120px;
+	filter: drop-shadow(0 15px 50px  rgb(172, 58, 5))
+    /* box-shadow: 15px 5px 10px rgb(51, 50, 50); */
 }
 @media only screen and (max-width: 600px) {
     .greeting h1 {
