@@ -52,12 +52,4 @@
 	.stars2, .twinkling2{
 		height: 600vh;
 	}
-    @keyframes move-twink-back {
-        from {background-position:0 0;}
-        to {background-position:-200vh 6000vh;}
-    }
-    @-webkit-keyframes move-twink-back {
-        from {background-position:0 0;}
-        to {background-position:-200vh 6000vh;}
-    }
   }
