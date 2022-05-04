@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PortfolioV2_React/static/css/main.36ee0ba3.chunk.css",
-    "main.js": "/PortfolioV2_React/static/js/main.1c9bfa07.chunk.js",
-    "main.js.map": "/PortfolioV2_React/static/js/main.1c9bfa07.chunk.js.map",
+    "main.css": "/PortfolioV2_React/static/css/main.b00c4193.chunk.css",
+    "main.js": "/PortfolioV2_React/static/js/main.c78407b8.chunk.js",
+    "main.js.map": "/PortfolioV2_React/static/js/main.c78407b8.chunk.js.map",
     "runtime-main.js": "/PortfolioV2_React/static/js/runtime-main.ffe4950d.js",
     "runtime-main.js.map": "/PortfolioV2_React/static/js/runtime-main.ffe4950d.js.map",
     "static/js/2.12e5d0d0.chunk.js": "/PortfolioV2_React/static/js/2.12e5d0d0.chunk.js",
@@ -10,12 +10,12 @@
     "static/js/3.94d068b4.chunk.js": "/PortfolioV2_React/static/js/3.94d068b4.chunk.js",
     "static/js/3.94d068b4.chunk.js.map": "/PortfolioV2_React/static/js/3.94d068b4.chunk.js.map",
     "index.html": "/PortfolioV2_React/index.html",
-    "static/css/main.36ee0ba3.chunk.css.map": "/PortfolioV2_React/static/css/main.36ee0ba3.chunk.css.map",
+    "static/css/main.b00c4193.chunk.css.map": "/PortfolioV2_React/static/css/main.b00c4193.chunk.css.map",
     "static/js/2.12e5d0d0.chunk.js.LICENSE.txt": "/PortfolioV2_React/static/js/2.12e5d0d0.chunk.js.LICENSE.txt",
     "static/media/Resume.304dc3a2.pdf": "/PortfolioV2_React/static/media/Resume.304dc3a2.pdf",
     "static/media/budgetScreenshot.33394911.png": "/PortfolioV2_React/static/media/budgetScreenshot.33394911.png",
     "static/media/campfire-pixel.f9b644ec.gif": "/PortfolioV2_React/static/media/campfire-pixel.f9b644ec.gif",
-    "static/media/ptcScreenshot.a908f578.png": "/PortfolioV2_React/static/media/ptcScreenshot.a908f578.png",
+    "static/media/ptc-binder-pic.5818caad.jpg": "/PortfolioV2_React/static/media/ptc-binder-pic.5818caad.jpg",
     "static/media/screenshotTGuide.49ac5bef.png": "/PortfolioV2_React/static/media/screenshotTGuide.49ac5bef.png",
     "static/media/self_pic.b34f3056.jpg": "/PortfolioV2_React/static/media/self_pic.b34f3056.jpg",
     "static/media/weatherScreenshot.8b56ae3e.png": "/PortfolioV2_React/static/media/weatherScreenshot.8b56ae3e.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.ffe4950d.js",
     "static/js/2.12e5d0d0.chunk.js",
-    "static/css/main.36ee0ba3.chunk.css",
-    "static/js/main.1c9bfa07.chunk.js"
+    "static/css/main.b00c4193.chunk.css",
+    "static/js/main.c78407b8.chunk.js"
   ]
 }
