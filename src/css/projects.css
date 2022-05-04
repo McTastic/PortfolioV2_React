@@ -1,9 +1,6 @@
 .projects{
     margin-top: 5em;
 }
-.projectCard{
-    margin-top: 40em;
-}
 @keyframes move-twink-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}

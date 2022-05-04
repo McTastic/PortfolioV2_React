@@ -113,6 +113,13 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                   color: "rgb(206, 89, 104)",
                   display: "block",
                   fontSize: "1.5em",
+                  "&.MuiButton-text:hover":{color: "#fdec6e",
+                  backgroundColor:"transparent",
+                  textShadow:"1px 1px 20px #fdec6e",
+                  mozTransition: "all 0.2s ease-in",
+                  oTransition: "all 0.2s ease-in",
+                  webkitTransition: "all 0.2s ease-in",
+                  transition: "all 0.2s ease-in"}
                 }}
               >
                 {page}

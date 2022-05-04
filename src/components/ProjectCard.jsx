@@ -11,11 +11,11 @@ export default function ActionAreaCard() {
     <>
       {projects.map((project) => (
         <Grid item xs={12} sm={6} md={4} lg={6} xl={6} key={project.name} display="flex" justifyContent={"center"}>
-          <Card sx={{ maxWidth: 900, marginTop: 15, boxShadow: 10 }}>
+          <Card sx={{ maxWidth: 800, marginTop: 15, boxShadow: 10 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
-                height="550"
+                height="450"
                 image= {project.picture}
                 alt="project picture"
                 onClick={(e)=> window.open(project.url)}

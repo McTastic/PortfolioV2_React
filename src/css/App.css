@@ -6,14 +6,14 @@ body {
 header {
   background-color: rgb(33, 44, 54);
 }
-.MuiButton-text:hover{
+/* .MuiButton-text:hover{
 	color: #fdec6e;
 	text-shadow:1px 1px 20px #fdec6e;
 	-moz-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
 	-webkit-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
-}
+} */
 .nameLogo{
   cursor: pointer;
   padding-right: 1em;
